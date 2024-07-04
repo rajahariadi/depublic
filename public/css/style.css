@@ -1,0 +1,238 @@
+
+.custom-teks {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 25px; 
+}
+.custom-teks2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px; 
+    color: #000;
+}
+.custom-button {
+    color: #D081E9;
+    background-color: #fff;
+    border-color: #D081E9;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 5px 18px;
+    font-size: 12px; 
+}
+
+.custom-button:hover {
+    
+    color: #fff;
+    background-color: #A103D3;
+    border-color: #D081E9;
+}
+
+.custom-button2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 15px; 
+    padding: 7px 18px;
+    color: #fff;
+    background-color: #A103D3;
+    border-color: #D081E9;
+   
+}
+
+.custom-button3 {
+    font-size: 25px;
+    padding: 2px 10px;
+    border-color: #fff;
+    background: none;
+    border: none;
+}
+
+.btn3 {
+    font-size: 50px;
+    padding: 2px 10px;
+    font-family: "Montserrat", sans-serif;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    
+}
+
+.btn3:hover,
+.btn3:focus {
+    text-decoration: none; /* Optional: remove underline on hover/focus */
+}
+
+
+.search-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.search-container input {
+    padding-left: 30px;
+    width: 100%;
+}
+
+.search-container .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 150px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#hero {
+    position: relative;
+    background-color: #FDF9F0;
+    padding: 50px 0;
+}
+
+.img-hero-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.img-hero {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-25%);
+    right: 0;
+    z-index: 1;
+}
+
+.img-hero1 {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-100%);
+    right: 0;
+    z-index: 1;
+}
+
+.content-container {
+    position: relative;
+    z-index: 2;
+}
+
+#cardsContainer {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: auto;
+}
+
+.card {
+    flex: 0 0 auto;
+    margin: 10px;
+
+}
+
+.card-body .card-text {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-body .card-text .location-icon {
+    margin-right: 8px;
+
+}
+
+.card-body .card-text .date-text {
+    color:#6B028D;
+
+}
+
+.available-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #EAF2E2;
+    color: #2A961D;
+    border: 2px #EAF2E2;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.footer {
+    position: relative;
+    background-color:  #360146;
+    padding: 50px 0;
+    margin-top: 10px;
+   
+}
+
+.footer-line {
+    flex-grow: 1;
+    height: 1px; 
+    background-color: #6B028D; 
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.color-accent {
+    color: #fff;
+}
+.color-accent3 {
+    color: #fff;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .row .col-12.text-center {
+    text-align: center;
+  }
+  
+  .footer .row .col-12.mt-4.text-center p {
+    text-align: center;
+  }
+  
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.flex-container img {
+    margin-right: 10px; /* Atur jarak antara gambar dan teks */
+}
+
+.color-accent2 {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
