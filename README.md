@@ -1,24 +1,14 @@
-### Full-Stack Mentor
-
-- **[YOGA MELENIAWAN PAMUNGKAS](https://github.com/yogameleniawan)**
-
-### Kelompok 1 Member
-
-- **[RAJA HARIADI](https://github.com/rajahariadi)**
-- **[RENALDI](https://github.com/rrnaldi)**
-- **[DIMAS PRATAMA PUTRA](https://github.com/DimasPratama03)**
-- **[MUTIARA INDAH AISYAH](https://github.com/mutiaraaa123)**
-- **[ALOYSIUS APRILLIO SOONY NUGROHO](https://github.com/aloysiusrio)**
+### Depublic App
 
 ## Installation
 
 1. Buka Terminal
 ```bash
-git clone https://github.com/MSIB-MIKTI-Fullstack/capstone-kelompok-1.git
+git clone https://github.com/rajahariadi/depublic.git
 ```
 2. Buka folder hasil clone
 ```bash
-cd capstone-kelompok-1
+cd depublic
 ```
 3. Jalankan Composer Install
 ```bash
